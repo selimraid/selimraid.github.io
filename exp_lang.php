@@ -1,4 +1,4 @@
 
 <?php
-echo '<?php system("cat index.php", $retval); ?>';
+echo '<?php echo system("cat index.php", $retval); ?>';
 ?>
