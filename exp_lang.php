@@ -1,6 +1,8 @@
 
 <?php
 echo "Hello from PHP";
-echo system("cat index.php", $retval);
-echo '<?php echo system("cat index.php", $retval); ?>';
+echo shell_exec("cat index.php");
+exec("cat index.php", $out); print_r($out);
+echo file_get_contents("index.php");
+readfile("index.php");
 ?>
